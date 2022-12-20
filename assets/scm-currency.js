@@ -79,7 +79,7 @@ function customSwticher(jQuery){
                     path: '/',
                     domain: window.location.hostname
                 },
-                name: 'scm_currency_1932',
+                name: 'scm_currency_2211',
                 write: function(currency) {
                     SECOMAPP.cookie(this.name, currency, this.configuration);
                 },
@@ -251,9 +251,13 @@ function customSwticher(jQuery){
                                                     money_format : 'WS$ {{amount}}',
                             money_with_currency_format : 'WS$ {{amount}} WST'
                                                 },
+                                            CAD : {
+                                                    money_format : '${{amount}}',
+                            money_with_currency_format : '${{amount}} CAD'
+                                                },
                                                   };
 
-                                                                                                                                        
+                                                                                                                                                                            
             /* Default currency */
             var defaultCurrency = 'INR' || shopCurrency;
 
@@ -437,6 +441,7 @@ function customSwticher(jQuery){
 if (cookieCurrency == null) {
             var countryCurrencyMap = {
                             "WS":"WST",
+                            "CA":"CAD",
                             "BT":"INR",
                             "IN":"INR",
                     };
