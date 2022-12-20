@@ -1,0 +1,8 @@
+{% assign currencySize = 1 %}
+{% assign currencyCodes = "INR WST " | rstrip | split: ' ' %}
+{% assign currencySymbols = " RF " | rstrip | split: ' ' %}
+{% assign defaultCurrencyCode = "INR" %}
+{% assign defaultCurrencySymbol = "" %}
+
+    {% render 'scm-currency-switcher-08' ,currencySize : currencySize, currencyCodes : currencyCodes ,currencySymbols :currencySymbols,defaultCurrencyCode: defaultCurrencyCode,defaultCurrencySymbol:defaultCurrencySymbol %}
+    
