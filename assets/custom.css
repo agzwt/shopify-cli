@@ -5,6 +5,7 @@ html {
 }
 .quiz-block {
   position: realtive;
+  overflow: hidden;
 }
 .quiz-block iframe{
   width: 100%;
