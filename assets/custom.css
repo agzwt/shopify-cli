@@ -1,3 +1,6 @@
 .quiz-block {
   position: realtive;
 }
+.quiz-block iframe{
+  height: 100vh;
+}
