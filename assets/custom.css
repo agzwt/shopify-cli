@@ -14,6 +14,9 @@ html {
 .quiz-block .whai-sticky{
   position: relative; 
 }
-.whai-brand-container {
+.quiz-block .whai-brand-container {
   display: none !important;  
+}
+.quiz-block .quiz-logo-container {
+ display: none; 
 }
