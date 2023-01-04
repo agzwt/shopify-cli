@@ -15,5 +15,5 @@ html {
   position: relative; 
 }
 .whai-brand-container {
-  display: none;  
+  display: none !important;  
 }
