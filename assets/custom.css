@@ -1,3 +1,8 @@
+html {
+    box-sizing: border-box;
+    font-size: calc(var(--font-body-scale) * 62.5%) !important;
+    height: 100%;
+}
 .quiz-block {
   position: realtive;
 }
