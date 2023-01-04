@@ -14,3 +14,6 @@ html {
 .quiz-block .whai-sticky{
   position: relative; 
 }
+.whai-brand-container {
+  display: none;  
+}
